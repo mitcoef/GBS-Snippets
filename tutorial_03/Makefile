@@ -6,6 +6,7 @@ local:
 
 size:
 	gcc -o size size.c
+	./size
 
 clean:
 	rm -f local size
